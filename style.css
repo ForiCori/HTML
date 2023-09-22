@@ -1,0 +1,22 @@
+body{
+    display: flex;
+}
+ol{
+    /*list-style: none;*/
+}
+.main{
+    margin: 70px auto;
+    width: 1200px;
+    height: 800px;
+    background-color: aquamarine;
+    border-radius: 40px;
+}
+.form{
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 24px;
+}
+.form p{
+    margin: 2px 0;
+}
