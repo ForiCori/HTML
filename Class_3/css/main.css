@@ -17,7 +17,7 @@ body{
     position: relative;
 }
 .top_content .description{
-    width: 60vw;
+    width: 64vw;
     display: flex;
     flex-direction: column;
 }
@@ -32,7 +32,8 @@ body{
 }
 .top_content .table_info{
     width: 20vw;
-    border: 2px solid green;
+    border: 1px solid #a2a9b1;
+    background: #f8f9fa;
     display: flex;
     flex-direction: column;
 }
@@ -43,9 +44,33 @@ body{
     list-style: none;
 }
 .top_content .image_info{
-    width: 20vw;
-    height: 70vh;
-    border: 2px solid black;
+    width: 16vw;
+    border: 1px solid #a2a9b1;
+    background: #f8f9fa;
     position: absolute;
     top: 0; right: -0.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 8px;
+}
+.top_content .image_info .top_logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #cfe3ff;
+    width: 15vw;
+}
+.top_content .image_info .top_logo img{
+    width: 15vw;
+}
+.top_content .image_info .top_logo p{
+    margin: 0 auto;
+}
+.top_content .image_info .main_img{
+    width: 15vw;
+}
+.original{
+    margin: 40px auto;
 }
